@@ -31,10 +31,15 @@
   <h1>Search</h1>
 
   </div>
-  <div class="cp_iptxt">
+ <form>
+	 <div class="cp_iptxt">
 	<label class="ef">
-	<input type="text" placeholder="Search">
+	<input type="text" placeholder="Search" name="search">
 	</label>
 </div>
+	 <output name="Out"></output>
+	 <input type="button" onclick="Out.value = text(search.value);" value="OK">
+	 </form>
+	 
   </body> 
 </html>
