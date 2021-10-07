@@ -39,12 +39,6 @@
             url += document.getElementById('param1').value;
             }
     }
-	function goURL(){
-           location.href =url
-  if(window.event.keyCode == 13) {
-    document.getElementById("param1").click();
-  }
-}
         }
     </script>
 		 <form class="form-inline" id="fh5co-header-subscribe">
@@ -52,7 +46,7 @@
 	    <div class="cp_iptxt">
       <div class="form-group">
 	      <label class="ef">
-        <input type="text" class="form-control" id="param1" placeholder="入力">
+        <input type="text" id="param1" placeholder="入力">
 		      </label>
         <input type="button" value="Open" class="btn btn-default" onclick="goURL();">
  </form>
